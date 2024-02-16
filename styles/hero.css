@@ -1,0 +1,13 @@
+.hero-container {
+  display: flex;
+}
+
+.hero-left {
+  padding-left: 7rem;
+  padding-top: 3.5rem;
+}
+
+.hero-container img {
+  flex: 1;
+  object-fit: cover;
+}

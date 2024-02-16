@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header,
+.navbar {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  padding: 1rem 7rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.header ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.header span {
+  display: flex;
+}
+
+.header ul li,
+.icon-text-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 7rem;
+  background-color: #ff8700;
+  font-size: 1.2rem;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.icons-container {
+  display: flex;
+  gap: 1.5rem;
+}
