@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+}
+
+.sofia-regular {
+  font-family: "Sofia", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: #ff8700;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+/* About */
+.about {
+  display: flex;
+  padding: 5rem;
+  gap: 3.5rem;
+}
+
+.about > img {
+  width: 45%;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-container img {
+  width: 5rem;
+}
+
+.about-container h1 {
+  font-weight: 500;
+  font-size: 3.5rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.1;
+}
+
+.about-container p {
+  font-size: 0.9rem;
+  line-height: 1.9;
+}
+
+/* Special Offer */
+.special-offer {
+  padding-left: 9rem;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  background-image: url("../static/Specialoffer-1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 42vh;
+}
+
+.special-offer h6 {
+  color: black;
+  margin-bottom: 0;
+  transform: translate(0, 1rem);
+}
+
+.special-offer h1 {
+  font-weight: 700;
+  font-size: 5rem;
+  color: #ff8700;
+}
+
+.special-offer p {
+  font-size: 1.2rem;
+  color: #444444;
+  margin-bottom: 2rem;
+  width: 38%;
+  font-weight: 600;
+  transform: translate(0, -0.5rem);
+}
+
+.offer-buttons {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.offer-buttons a {
+  text-decoration: none;
+  padding: 0.3rem 1rem;
+  color: #444444;
+  border-radius: 5px;
+  background: white;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.offer-buttons a:hover {
+  background: #ff8700;
+  color: white;
+}
+
+/* Menu */
+.menu {
+  padding: 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu > img {
+  width: 4.8rem;
+}
+
+.menu h1 {
+  font-weight: 600;
+  font-size: 3.5rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.1;
+}
+
+.menu > p {
+  font-size: 1.1rem;
+  margin-bottom: 2.4rem;
+  width: 38%;
+  font-weight: 600;
+  text-align: center;
+  color: #444444;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.filter-buttons button {
+  padding: 0.4rem 1.5rem;
+  color: #444444;
+  border-radius: 5px;
+  background: white;
+  font-weight: 600;
+  border: 2px solid #ff8700;
+  transition: 0.5s;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.filter-buttons button:hover,
+.filter-buttons .btn-clicked {
+  background: #ff8700;
+  color: white;
+}
+
+.food-menu {
+  display: flex;
+  gap: 1.5rem;
+  padding: 3rem 4.7rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  min-width: 100%;
+}
+
+.food-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  width: 21rem;
+  transition: 0.5s;
+}
+
+.food-item img {
+  border-radius: 8px;
+  transition: 0.5s;
+  border: 2px solid transparent;
+}
+
+.food-item:hover img {
+  border: 2px solid #ff8700;
+}
+
+.food-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  padding: 1.7rem 2rem;
+  background: #f1efef;
+  border-radius: 8px;
+}
+
+.rating {
+  color: orange;
+}
+
+.food-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food-info h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #444444;
+}
+
+.food-info p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background: #ff8700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}
+
+.food-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.food-buttons a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  padding: 0.2rem 0.8rem;
+  color: #444444;
+  border-radius: 5px;
+  background: white;
+  font-weight: 600;
+  transition: 0.5s;
+  border: 2px solid #828282;
+}
+
+.food-item:hover a {
+  background: #ff8700;
+  color: white;
+  border: 2px solid #ff8700;
+}
+
+.food-buttons a:hover {
+  opacity: 0.7;
+  transform: scale(1.08);
+}
+
+/* Menu Clases */
+.item-shrink-1 {
+  transform: scale(0);
+}
+
+.item-shrink-2 {
+  position: absolute;
+}
