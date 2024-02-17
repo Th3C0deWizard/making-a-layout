@@ -1,0 +1,146 @@
+.menu {
+  padding: 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu > img {
+  width: 4.8rem;
+}
+
+.menu h1 {
+  font-weight: 600;
+  font-size: 3.5rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.1;
+}
+
+.menu > p {
+  font-size: 1.1rem;
+  margin-bottom: 2.4rem;
+  width: 38%;
+  font-weight: 600;
+  text-align: center;
+  color: #444444;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.filter-buttons button {
+  padding: 0.4rem 1.5rem;
+  color: #444444;
+  border-radius: 5px;
+  background: white;
+  font-weight: 600;
+  border: 2px solid #ff8700;
+  transition: 0.5s;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.filter-buttons button:hover,
+.filter-buttons .btn-clicked {
+  background: #ff8700;
+  color: white;
+}
+
+.food-menu {
+  display: flex;
+  gap: 1.5rem;
+  padding: 3rem 6rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.food-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  width: 18rem;
+  transition: 0.5s;
+}
+
+.food-item img {
+  border-radius: 8px;
+  transition: 0.5s;
+  border: 2px solid transparent;
+}
+
+.food-item:hover img {
+  border: 2px solid #ff8700;
+}
+
+.food-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  padding: 1.7rem 1.6rem;
+  background: #f1efef;
+  border-radius: 8px;
+}
+
+.rating {
+  color: orange;
+}
+
+.food-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food-info h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #444444;
+}
+
+.food-info p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background: #ff8700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}
+
+.food-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.food-buttons a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  padding: 0.2rem 0.8rem;
+  color: #444444;
+  border-radius: 5px;
+  background: white;
+  font-weight: 600;
+  transition: 0.5s;
+  border: 2px solid #828282;
+}
+
+.food-item:hover a {
+  background: #ff8700;
+  color: white;
+  border: 2px solid #ff8700;
+}
+
+.food-buttons a:hover {
+  opacity: 0.7;
+  transform: scale(1.08);
+}
+
+/* Menu Clases */
+.item-shrink-1 {
+  transform: scale(0);
+}
+
+.item-shrink-2 {
+  position: absolute;
+}
