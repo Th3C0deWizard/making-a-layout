@@ -1,0 +1,52 @@
+.special-dishes {
+  padding-inline: 7rem;
+}
+.special-dishes-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.special-dishes-top a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.3rem;
+}
+
+.dishes-cards-container {
+  margin-block: 5rem;
+  display: grid;
+  grid-template-areas:
+    "a a b b"
+    "a a c d";
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 24rem);
+  gap: 2rem;
+}
+
+.dishes-card {
+  border-radius: 0.7rem;
+}
+
+.dishes-card:nth-child(1) {
+  grid-area: a;
+}
+
+.dishes-card:nth-child(2) {
+  grid-area: b;
+}
+
+.dishes-card:nth-child(3) {
+  grid-area: c;
+}
+
+.dishes-card:nth-child(4) {
+  grid-area: d;
+}
+
+.dishes-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.7rem;
+}
