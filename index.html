@@ -7,6 +7,15 @@
     <link href="styles/index.css" rel="stylesheet" />
     <link href="styles/header.css" rel="stylesheet" />
     <link href="styles/hero.css" rel="stylesheet" />
+    <link href="styles/index.css" rel="stylesheet" />
+    <link href="styles/menu.css" rel="stylesheet" />
+    <link href="styles/booking-opening.css" rel="stylesheet" />
+    <link href="styles/blog.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <script src="scripts/script.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -241,6 +250,417 @@
           </div>
         </div>
         <img src="./static/hero.png" alt="Tasty Meat" />
+      </section>
+      <section class="about">
+        <img src="static/About.png" alt="Salmon dish with vegetables" />
+        <div class="about-container">
+          <img src="static/leafs.png" alt="leaf" />
+          <h6 class="sofia-regular">About Us</h6>
+          <h1>Discover your favorite food within our restaurant</h1>
+          <p>
+            Discover culinary bliss at "Savoria". with its charming atmosphere,
+            delectable cuisine, and impeccable service, this hidden gem
+            transports you to a world of gastronomic delight. Indulge in a
+            symphony of flavors crafted with passion and precision, leaving your
+            taste buds longing for more.
+          </p>
+          <a href="">Read More</a>
+        </div>
+      </section>
+      <section class="special-offer">
+        <h6 class="sofia-regular">Special Offer</h6>
+        <h1>MOTHER'S DAY</h1>
+        <p>
+          Celebrate Mother's Day with love! Enjoy 20% off on all items as a
+          token of apreciation.
+        </p>
+        <div class="offer-buttons">
+          <a href="">Order Now</a>
+          <a href=""><i class="fa-solid fa-magnifying-glass fa-xs"></i></a>
+          <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+          <a href=""
+            ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+          ></a>
+        </div>
+      </section>
+      <section class="menu" id="menu">
+        <img src="static/leafs.png" alt="leaf" />
+        <h6 class="sofia-regular">Food Menu</h6>
+        <h1>Our Popular Delicious Foods</h1>
+        <p>
+          Introducing our tantalizing food menu, filled with exquisite flavors
+          and culinary delights to satisfy every palete
+        </p>
+        <div class="filter-buttons">
+          <button type="button" data-category="0">All Menu</button>
+          <button type="button" data-category="1">Burgers</button>
+          <button type="button" data-category="2">Pizza</button>
+          <button type="button" data-category="3">Sticks</button>
+          <button type="button" data-category="4">Salads</button>
+          <button type="button" data-category="5">Desserts</button>
+          <button type="button" data-category="6">Drinks</button>
+        </div>
+        <div class="food-menu">
+          <article class="food-item" data-category="1">
+            <img src="static/FoodMenu/KingBurguer.png" alt="King Burguer" />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="food-info">
+                <h5>King Burger</h5>
+                <p>$150</p>
+              </div>
+              <div class="food-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="food-item" data-category="2">
+            <img src="static/FoodMenu/TomatoPizza.png" alt="Tomato Pizza" />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="food-info">
+                <h5>Tomato Pizza</h5>
+                <p>$150</p>
+              </div>
+              <div class="food-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="food-item" data-category="3">
+            <img src="static/FoodMenu/FriedSnacks.png" alt="Fried Snacks" />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="food-info">
+                <h5>Fried Snacks</h5>
+                <p>$150</p>
+              </div>
+              <div class="food-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="food-item" data-category="4">
+            <img
+              src="static/FoodMenu/VegetableSalads.png"
+              alt="Vegetable Salads"
+            />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="food-info">
+                <h5>Vegetable Salads</h5>
+                <p>$150</p>
+              </div>
+              <div class="food-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="food-item" data-category="3">
+            <img
+              src="static/FoodMenu/FetuccineAlfredo.png"
+              alt="Fetuccine Alfredo"
+            />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="food-info">
+                <h5>Fetuccine Alfredo</h5>
+                <p>$150</p>
+              </div>
+              <div class="food-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="food-item" data-category="3">
+            <img
+              src="static/FoodMenu/MacoroniCheese.png"
+              alt="Macoroni Cheese"
+            />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="food-info">
+                <h5>Macoroni Cheese</h5>
+                <p>$150</p>
+              </div>
+              <div class="food-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="food-item" data-category="5">
+            <img src="static/FoodMenu/DessertsFood.png" alt="Desserts Food" />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="food-info">
+                <h5>Desserts Food</h5>
+                <p>$150</p>
+              </div>
+              <div class="food-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="food-item" data-category="6">
+            <img
+              src="static/FoodMenu/MargaritaDrinks.png"
+              alt="Margarita Drinks"
+            />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="food-info">
+                <h5>Margarita Drinks</h5>
+                <p>$150</p>
+              </div>
+              <div class="food-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="booking-opening">
+        <form action="" class="boo-op-container">
+          <div class="title-container">
+            <img src="static/leafs.png" alt="leaf" />
+            <h6 class="sofia-regular">Table booking</h6>
+            <h1>Book your table now</h1>
+          </div>
+          <div class="n-person">
+            <div class="input-container">
+              <i class="fa-solid fa-person"></i>
+              <select required>
+                <option value="0" selected>Person</option>
+                <option value="1">1 Adult</option>
+                <option value="2">2 Adult</option>
+                <option value="3">3 Adult</option>
+                <option value="4">4 Adult</option>
+                <option value="5">5 Adult</option>
+              </select>
+            </div>
+
+            <div class="input-container">
+              <i class="fa-solid fa-child"></i>
+              <select required>
+                <option value="0" selected>Kid's</option>
+                <option value="1">1 Child</option>
+                <option value="2">2 Child</option>
+                <option value="3">3 Child</option>
+                <option value="4">4 Child</option>
+                <option value="5">5 Child</option>
+              </select>
+            </div>
+          </div>
+          <div class="time">
+            <div class="input-container">
+              <i class="fa-solid fa-calendar"></i>
+              <input name="date" type="date" min="2024-02-23" required />
+              <label for="date" class="info-label">Date</label>
+            </div>
+            <div class="input-container">
+              <i class="fa-solid fa-clock"></i>
+              <input name="time" type="time" min="07:30" max="23:30" required />
+              <label for="time" class="info-label">Time</label>
+            </div>
+          </div>
+          <div class="message-container">
+            <textarea
+              class="message"
+              name="message"
+              cols="53"
+              rows="5"
+              required
+            ></textarea>
+            <label for="message" class="label-message">
+              <i class="fa-regular fa-comments"></i> Special Message
+            </label>
+          </div>
+          <button type="submit" class="button">Confirm</button>
+        </form>
+        <div class="boo-op-container">
+          <div class="title-container">
+            <img src="static/leafs.png" alt="leaf" />
+            <h6 class="sofia-regular">Opening Time</h6>
+            <h1>Opening Times</h1>
+          </div>
+          <div class="op-time-brln">
+            <div class="op-time">
+              <h4>Breakfast</h4>
+              <time>7 Days 7.30am to 11.30am</time>
+            </div>
+            <div class="op-time">
+              <h4>Lunch</h4>
+              <time>7 Days 12.30pm to 3.30pm</time>
+            </div>
+          </div>
+          <div class="op-time">
+            <h4>Dinner</h4>
+            <time>Every Weekdays 8.30pm to 11.30pm</time>
+          </div>
+          <a href="#menu">Order Now</a>
+        </div>
+      </section>
+      <section class="blog">
+        <img src="static/leafs.png" alt="leaf" />
+        <h6 class="sofia-regular">Our Blog</h6>
+        <h1>Know More About The Article</h1>
+        <div class="wrapper">
+          <button class="btn-left" id="btn-left">
+            <i class="fa-solid fa-angle-left fa-2xl"></i>
+          </button>
+
+          <ul class="carousel">
+            <li class="card">
+              <img
+                src="static/OurBlog/Reservation.png"
+                alt="A family having dinner and enjoying"
+                draggable="false"
+              />
+              <time>15 December, 2022</time>
+              <h4>Explore Taste & The Best Quality Make A Reservation</h4>
+              <p>
+                A great commerce experience cannot be distilled to a single
+                number. It's not a Lighthouse score.
+              </p>
+              <button type="submit" class="button">Read more</button>
+            </li>
+            <li class="card">
+              <img
+                src="static/OurBlog/Journey.png"
+                alt="Chef smiling"
+                draggable="false"
+              />
+              <time>15 December, 2022</time>
+              <h4>Enjoy an exceptional journey of taste of joy</h4>
+              <p>
+                Aenean eleifend ante maecenas pulvinar montes lorem et pede dis
+                dolor pretium donec dictum.
+              </p>
+              <button type="submit" class="button">Read more</button>
+            </li>
+            <li class="card">
+              <img
+                src="static/OurBlog/Chef.jpg"
+                alt="Professional kitchen"
+                draggable="false"
+              />
+              <time>15 December, 2022</time>
+              <h4>Our professional kitchen</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Impedit officia voluptate saepe, corporis ipsum mollitia.
+              </p>
+              <button type="submit" class="button">Read more</button>
+            </li>
+          </ul>
+          <button class="btn-right" id="btn-right">
+            <i class="fa-solid fa-angle-right fa-2xl"></i>
+          </button>
+        </div>
       </section>
     </main>
     <footer></footer>
