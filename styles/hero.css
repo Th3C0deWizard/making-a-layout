@@ -1,5 +1,12 @@
 .hero-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 87vh;
+}
+
+.hero-img {
+  background-image: url(../static/hero.png);
+  background-size: 100% 100%;
 }
 
 .hero-left {
@@ -7,7 +14,37 @@
   padding-top: 3.5rem;
 }
 
-.hero-container {
+.hero-p {
+  padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.hero-buttons-container {
+  padding-left: 1rem;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3.5rem;
+}
+
+.hero-cards-container {
+  padding-left: 1rem;
+  padding-right: 4rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.hero-card {
+  border-radius: 0.7rem;
+}
+
+.hero-card img {
+  width: 100%;
+  border-radius: 0.7rem;
+  object-fit: cover;
+}
+
+.hero-card img:hover {
+  border: 2px var(--main-orange) solid;
 }

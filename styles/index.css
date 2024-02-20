@@ -24,7 +24,7 @@ strong {
 }
 
 .primary-button {
-  border: solid gray 2px;
+  border: solid black 1.7px;
   background: transparent;
   border-radius: 0.7rem;
 }
@@ -35,16 +35,13 @@ strong {
   font-size: 1.7rem;
   text-decoration: none;
   color: var(--p-text);
-  padding: 0.7rem 2rem;
+  padding: 0.7rem 1.6rem;
 }
 
 .primary-button:hover {
+  border: none;
   color: white;
   background: var(--main-orange);
-}
-
-.flex-container {
-  display: flex;
 }
 
 .sofia-regular {
