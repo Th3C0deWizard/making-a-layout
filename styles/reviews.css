@@ -1,0 +1,41 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../static/review-background.png);
+  background-size: 100% 100%;
+  height: 70vh;
+  padding-top: 4rem;
+}
+
+.reviews hr {
+  color: black;
+  width: 12%;
+  margin-block: 1rem;
+}
+
+.reviews p {
+  text-align: center;
+}
+
+.reviewer-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.reviewer-profile img {
+  border-radius: 100%;
+  border: 1px var(--main-orange) solid;
+  object-fit: cover;
+}
+
+.reviewer-profile h6 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.reviewer-profile p {
+  color: var(--main-orange);
+}

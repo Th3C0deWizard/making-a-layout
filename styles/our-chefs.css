@@ -1,0 +1,39 @@
+.our-chefs {
+  padding-inline: 7rem;
+  padding-bottom: 7rem;
+}
+.our-chefs .food-gallery-top p {
+  margin-bottom: 0;
+}
+.chefs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chef-card {
+  -webkit-box-shadow: -52px 28px 99px -25px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: -52px 28px 99px -25px rgba(0, 0, 0, 0.73);
+  box-shadow: -52px 28px 99px -25px rgba(0, 0, 0, 0.73);
+  border-radius: 0.7rem;
+  padding: 1.5rem;
+}
+
+.chef-card img {
+  border-radius: 0.7rem;
+  width: 20rem;
+}
+
+.chef-card:nth-child(1) {
+  z-index: 1;
+  transform: rotate(-8deg);
+}
+.chef-card:nth-child(2) {
+  margin-top: 15rem;
+  z-index: 2;
+  transform: rotate(8deg);
+}
+.chef-card:nth-child(3) {
+  z-index: 1;
+  transform: rotate(-8deg);
+}
