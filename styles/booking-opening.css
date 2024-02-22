@@ -9,10 +9,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.8rem;
+  gap: 2.5rem;
   width: 45%;
   background: rgba(233, 233, 233, 0.8);
-  padding: 4rem 1.5rem;
+  padding: 5rem 2.5rem;
   border: 1px solid rgb(233, 233, 233);
 }
 
@@ -22,20 +22,25 @@
   align-items: center;
 }
 
+.title-container img {
+  width: 5rem;
+}
+
 .title-container h6 {
   margin-bottom: 0;
   transform: translate(0, 0.4rem);
 }
 
 .title-container h1 {
-  font-weight: 700;
-  font-size: 2.5rem;
+  font-weight: 500;
+  font-size: 3.8rem;
   text-transform: uppercase;
 }
 
 .n-person {
   display: flex;
-  gap: 2.1rem;
+  gap: 2.8rem;
+  width: 100%;
 }
 
 .input-container {
@@ -46,15 +51,17 @@
   border: 1px solid rgb(233, 233, 233);
   align-items: center;
   padding: 0rem 1.9rem;
+  width: 100%;
 }
 
 .input-container select {
   background: transparent;
   text-align-last: left;
-  height: 4rem;
+  height: 5rem;
   min-width: 10rem;
   border: none;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
+  width: 100%;
 }
 
 .input-container option {
@@ -63,16 +70,19 @@
 
 .time {
   display: flex;
-  gap: 2.1rem;
+  gap: 3rem;
+  width: 100%;
 }
 
 .time input {
   border: none;
-  font-size: 1.1rem;
-  height: 4rem;
+  font-size: 1.5rem;
+  height: 5rem;
   min-width: 9.8rem;
   text-align-last: left;
   position: relative;
+  width: 100%;
+  margin-left: 0.5rem;
 }
 
 input:focus,
@@ -91,19 +101,20 @@ select:focus {
   content: "\f107";
   font-size: 0.8rem;
   position: absolute;
-  right: 0.1rem;
+  right: 0.3rem;
   display: block;
 }
 
 .info-label {
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: #444444;
-  font-weight: 600;
+  font-weight: 400;
   position: absolute;
   transform: translate(1.4rem, 0);
   background: white;
-  padding-right: 4.6rem;
+  padding-right: 8rem;
   transition: 0.4s;
+  margin-left: 0.5rem;
 }
 
 .time input:focus + .info-label,
@@ -117,20 +128,22 @@ select:focus {
 
 .message {
   border: 1.5px solid rgb(233, 233, 233);
-  font-size: 1rem;
+  font-size: 1.4rem;
   border-radius: 5px;
   outline: none;
   resize: none;
   padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 .label-message {
   position: absolute;
   pointer-events: none;
   transition: 0.5s;
-  transform: translate(-20.5rem, 3.2rem);
+  transform: translate(-27.5rem, 4.5rem);
   width: 100%;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 1.4rem;
 }
 
 .message:focus ~ .label-message,
@@ -141,7 +154,7 @@ select:focus {
 /* Opening Time*/
 .op-time-brln {
   display: flex;
-  gap: 1.8rem;
+  gap: 3rem;
   width: 100%;
 }
 
@@ -150,20 +163,26 @@ select:focus {
   border: 1.5px solid rgb(233, 233, 233);
   border-radius: 5px;
   text-align: center;
-  padding: 2.66rem 2rem;
-  width: 88%;
+  padding: 3.8rem 2rem;
+  width: 90%;
   display: flex;
   flex-direction: column;
 }
 
+.op-large {
+  padding: 3rem 2rem;
+  margin-bottom: 1rem;
+}
+
 .op-time h4 {
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 
 .op-time time {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   color: #444444;
-  font-weight: 700;
+  font-weight: 500;
+  line-height: 1.5;
   width: 100%;
 }

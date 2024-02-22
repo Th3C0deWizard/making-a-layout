@@ -10,17 +10,17 @@
 }
 
 .menu h1 {
-  font-weight: 600;
-  font-size: 3.5rem;
+  font-weight: 500;
+  font-size: 4.5rem;
   margin-bottom: 0.8rem;
   line-height: 1.1;
 }
 
 .menu > p {
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   margin-bottom: 2.4rem;
   width: 38%;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
   color: #444444;
 }
@@ -35,10 +35,10 @@
   color: #444444;
   border-radius: 5px;
   background: white;
-  font-weight: 600;
+  font-weight: 400;
   border: 2px solid #ff8700;
   transition: 0.5s;
-  font-size: 1rem;
+  font-size: 1.32rem;
   cursor: pointer;
 }
 
@@ -51,16 +51,18 @@
 .food-menu {
   display: flex;
   gap: 1.5rem;
-  padding: 3rem 6rem;
+  padding: 3rem 0rem;
   justify-content: flex-start;
   flex-wrap: wrap;
+  width: 87%;
+  overflow: hidden;
 }
 
 .food-item {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
-  width: 18rem;
+  width: 23.8%;
   transition: 0.5s;
 }
 
@@ -78,7 +80,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.9rem;
-  padding: 1.7rem 1.6rem;
+  padding: 1.7rem 2.5rem;
   background: #f1efef;
   border-radius: 8px;
 }
@@ -94,34 +96,23 @@
 }
 
 .food-info h5 {
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 400;
   color: #444444;
 }
 
 .food-info p {
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 400;
   color: white;
   background: #ff8700;
   padding: 0.2rem 0.6rem;
   border-radius: 4px;
 }
 
-.food-buttons {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.food-buttons a {
-  font-size: 0.8rem;
-  text-decoration: none;
-  padding: 0.2rem 0.8rem;
-  color: #444444;
-  border-radius: 5px;
-  background: white;
-  font-weight: 600;
-  transition: 0.5s;
+.food-item a {
+  font-size: 1.2rem;
+  padding: 0.2rem 1rem;
   border: 2px solid #828282;
 }
 
