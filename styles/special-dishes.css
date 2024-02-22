@@ -1,6 +1,11 @@
 .special-dishes {
   padding-inline: 7rem;
 }
+
+.special-dishes > img {
+  width: 5rem;
+}
+
 .special-dishes-top {
   display: flex;
   justify-content: space-between;
@@ -10,7 +15,7 @@
 .special-dishes-top a {
   text-decoration: none;
   color: inherit;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 .dishes-cards-container {
@@ -20,7 +25,7 @@
     "a a b b"
     "a a c d";
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 24rem);
+  grid-template-rows: repeat(2, 26rem);
   gap: 2rem;
 }
 
