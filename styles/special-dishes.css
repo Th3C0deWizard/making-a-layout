@@ -16,9 +16,16 @@
   text-decoration: none;
   color: inherit;
   font-size: 2rem;
+  transition: 0.5s;
   i {
     margin-left: 1rem;
+    transition: 0.5s;
   }
+}
+
+.special-dishes-top:hover i,
+.special-dishes-top:hover a {
+  color: var(--main-orange);
 }
 
 .dishes-cards-container {

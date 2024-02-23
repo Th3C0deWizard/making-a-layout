@@ -88,7 +88,7 @@
   border: 2px solid #ff8700;
 }
 
-.food-buttons a:hover {
+.food-container a:hover {
   opacity: 0.7;
   transform: scale(1.08);
 }

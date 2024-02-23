@@ -9,6 +9,7 @@
 
 .our-location p {
   padding-block: 0.5rem;
+  font-size: 1.5rem;
 }
 
 .information {
@@ -34,26 +35,29 @@
 }
 
 .buttons-container i {
-  font-size: 3rem;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 100%;
+  color: white;
+  border: 2px solid white;
 }
 
 .buttons-container ul li:nth-child(1) i {
-  color: #aa1e0d;
+  background: #aa1e0d;
 }
 
 .buttons-container ul li:nth-child(2) i {
-  color: #4070c9;
+  background: #4070c9;
+  padding: 0.5rem 0.8rem;
 }
 
 .buttons-container ul li:nth-child(3) i {
   background: linear-gradient(#4f5bd5, #962fbf, #d62976, #fa7e1e, #feda75);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  padding: 0.5rem 0.6rem;
 }
 
 .buttons-container ul li:nth-child(4) i {
-  color: #12bff6;
+  background: #12bff6;
 }
 
 .food-cards-container {
