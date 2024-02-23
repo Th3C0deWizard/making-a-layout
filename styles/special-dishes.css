@@ -16,6 +16,9 @@
   text-decoration: none;
   color: inherit;
   font-size: 2rem;
+  i {
+    margin-left: 1rem;
+  }
 }
 
 .dishes-cards-container {
@@ -59,26 +62,35 @@
 
 .dishes-card > div {
   position: absolute;
-  display: none;
-  flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  top: 10%;
-  left: 10%;
-  width: 80%;
-  height: 80%;
-}
-
-.dishes-card:hover::before {
-  content: "";
-  position: absolute;
-  border-radius: 0.7rem;
-  top: 10%;
-  left: 10%;
-  width: 80%;
-  height: 80%;
+  scale: 0;
   background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.7rem;
+  transition: 0.5s;
+  div {
+    background: transparent;
+  }
+}
+.dishes-card:nth-child(1) > div {
+  top: 25%;
+  left: 10%;
+  width: 80%;
+  height: 50%;
+}
+.dishes-card:nth-child(2) > div {
+  top: 20%;
+  left: 20%;
+  width: 60%;
+  height: 60%;
+}
+.dishes-card:nth-child(3) > div,
+.dishes-card:nth-child(4) > div {
+  top: 20%;
+  left: 2.5%;
+  width: 95%;
+  height: 60%;
 }
 
 .dishes-card h7 {
@@ -100,5 +112,5 @@
 }
 
 .dishes-card:hover > div {
-  display: flex;
+  scale: 1;
 }

@@ -4,6 +4,9 @@
 }
 .our-chefs .food-gallery-top p {
   margin-bottom: 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+  width: 48%;
 }
 .chefs-container {
   display: flex;
@@ -21,12 +24,12 @@
 
 .chef-card img {
   border-radius: 0.7rem;
-  width: 20rem;
+  width: 25rem;
 }
 
 .chef-card:nth-child(1) {
   z-index: 1;
-  transform: rotate(-8deg);
+  transform: rotate(-18deg);
 }
 .chef-card:nth-child(2) {
   margin-top: 15rem;

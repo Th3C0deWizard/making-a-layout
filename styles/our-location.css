@@ -38,34 +38,35 @@
 }
 
 .food-card {
-  border: 0.5px black solid;
   border-radius: 0.7rem;
   background-color: white;
   padding: 0.2rem;
 }
 
 .food-card img {
-  border-radius: 0.7rem;
+  border-radius: 0.4rem;
 }
 
 .food-card:nth-child(1) {
   position: absolute;
   top: 0;
-  right: 15rem;
+  right: 0rem;
+  width: 60%;
 }
 
 .food-card:nth-child(2) {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: -2.8rem;
+  left: 6rem;
+  width: 50%;
 }
 
 .food-card:nth-child(1) img {
   z-index: 1;
-  width: 23rem;
+  width: 100%;
 }
 
 .food-card:nth-child(2) img {
   z-index: 2;
-  width: 20rem;
+  width: 100%;
 }

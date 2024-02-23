@@ -1,27 +1,67 @@
 .reviews {
-  display: flex;
-  overflow-x: hidden;
+  background-image: url(../static/review-background.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
-.reviews div {
+.carousel-review {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.points {
+  position: absolute;
+  top: 60%;
+  left: 49%;
+  display: flex;
+  gap: 0.6rem;
+}
+
+.points > button {
+  background: black;
+  border: 2px black solid;
+  height: 0.6rem;
+  width: 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.points .btn-point-selected {
+  background: transparent;
+}
+
+.carousel-review div {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100dvw;
   height: 70vh;
-  background-image: url(../static/review-background.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
   padding-top: 4rem;
+  scroll-snap-align: start;
 }
 
-.reviews div hr {
+.carousel-review.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+
+.carousel-review.dragging > div {
+  cursor: grab;
+  user-select: none;
+}
+
+.carousel-review div hr {
   color: black;
   width: 12%;
   margin-block: 1rem;
 }
 
-.reviews div p {
+.carousel-review div p {
   text-align: center;
 }
 

@@ -91,3 +91,67 @@ const draggStop = () => {
 blogCarousel.addEventListener("mousedown", dragStart);
 blogCarousel.addEventListener("mousemove", dragging);
 document.addEventListener("mouseup", draggStop);
+
+// Review carousel
+const reviewCarousel = document.querySelector(".carousel-review");
+const cardReviewWidth = document.querySelector(
+  ".carousel-review > div"
+).offsetWidth;
+const btnReview = document.querySelectorAll(".point");
+
+reviewCarousel.scrollLeft = cardReviewWidth;
+btnReview[1].classList.add("btn-point-selected");
+
+btnReview.forEach((btn, index) => {
+  btn.addEventListener("click", () => {
+    reviewCarousel.scrollLeft = cardReviewWidth * index;
+    cardReviewSelected = index;
+    btnReview.forEach((button) => {
+      button.classList.remove("btn-point-selected");
+    });
+    btn.classList.add("btn-point-selected");
+  });
+});
+
+let isDraggingReview = false,
+  startXReview,
+  startScrollLeftReview;
+
+const dragStartReview = (e) => {
+  isDraggingReview = true;
+  reviewCarousel.classList.add("dragging");
+  startXReview = e.pageX;
+  startScrollLeftReview = reviewCarousel.scrollLeft;
+};
+
+const draggingReview = (e) => {
+  if (isDraggingReview) {
+    reviewCarousel.scrollLeft =
+      startScrollLeftReview - (e.pageX - startXReview);
+  }
+};
+
+const draggStopReview = () => {
+  isDraggingReview = false;
+  reviewCarousel.classList.remove("dragging");
+  btnReview.forEach((button) => {
+    button.classList.remove("btn-point-selected");
+  });
+  if (
+    reviewCarousel.scrollLeft >= 0 &&
+    reviewCarousel.scrollLeft < cardReviewWidth
+  ) {
+    btnReview[0].classList.add("btn-point-selected");
+  } else if (
+    reviewCarousel.scrollLeft >= cardReviewWidth &&
+    reviewCarousel.scrollLeft < cardReviewWidth * 2
+  ) {
+    btnReview[1].classList.add("btn-point-selected");
+  } else {
+    btnReview[2].classList.add("btn-point-selected");
+  }
+};
+
+reviewCarousel.addEventListener("mousedown", dragStartReview);
+reviewCarousel.addEventListener("mousemove", draggingReview);
+document.addEventListener("mouseup", draggStopReview);

@@ -8,7 +8,7 @@
 }
 
 .header {
-  padding: 1rem 7rem;
+  padding: 1.5rem 7rem;
   display: flex;
   justify-content: space-between;
 }
@@ -27,12 +27,16 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  p {
+    font-size: 1.35rem;
+  }
 }
 
 .header ul li a {
   display: inline-block;
   text-decoration: none;
   color: black;
+  font-size: 1.2rem;
 }
 
 .navbar {
@@ -41,13 +45,13 @@
   align-items: center;
   padding: 1rem 7rem;
   background-color: #ff8700;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .navbar ul {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 2.5rem;
 }
 
 .navbar ul li {
@@ -61,5 +65,9 @@
 
 .icons-container {
   display: flex;
-  gap: 1.5rem;
+  gap: 2.5rem;
+}
+
+.logo-container img {
+  width: 170%;
 }
