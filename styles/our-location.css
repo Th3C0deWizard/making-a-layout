@@ -33,6 +33,26 @@
   gap: 1rem;
 }
 
+.buttons-container i {
+  font-size: 3rem;
+}
+
+.buttons-container ul li:nth-child(1) i {
+  color: #aa1e0d;
+}
+
+.buttons-container ul li:nth-child(2) i {
+  color: #4070c9;
+}
+
+.buttons-container ul li:nth-child(3) i {
+  color: #d8968d;
+}
+
+.buttons-container ul li:nth-child(4) i {
+  color: #12bff6;
+}
+
 .food-cards-container {
   position: relative;
 }
