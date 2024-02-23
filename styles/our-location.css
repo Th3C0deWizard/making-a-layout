@@ -46,7 +46,10 @@
 }
 
 .buttons-container ul li:nth-child(3) i {
-  color: #d8968d;
+  background: linear-gradient(#4f5bd5, #962fbf, #d62976, #fa7e1e, #feda75);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .buttons-container ul li:nth-child(4) i {
