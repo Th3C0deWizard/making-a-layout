@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../static/footer.jpeg);
+  padding-top: 5rem;
+  gap: 3.5rem;
+}
+
+.footer img {
+  width: 10%;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.footer p {
+  border-top: gray 2px solid;
+  padding-block: 2rem;
+  color: white;
+  font: inherit;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 3 00;
+}

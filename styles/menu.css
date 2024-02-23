@@ -1,0 +1,103 @@
+.menu {
+  padding: 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu > img {
+  width: 4.8rem;
+}
+
+.menu h1 {
+  font-weight: 500;
+  font-size: 4.5rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.1;
+}
+
+.menu > p {
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+  width: 38%;
+  font-weight: 400;
+  text-align: center;
+  color: #444444;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.filter-buttons button {
+  padding: 0.4rem 1.5rem;
+  color: #444444;
+  border-radius: 5px;
+  background: white;
+  font-weight: 400;
+  border: 2px solid #ff8700;
+  transition: 0.5s;
+  font-size: 1.32rem;
+  cursor: pointer;
+}
+
+.filter-buttons button:hover,
+.filter-buttons .btn-clicked {
+  background: #ff8700;
+  color: white;
+}
+
+.food-menu {
+  display: flex;
+  gap: 1.5rem;
+  padding: 3rem 0rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 87%;
+  overflow: hidden;
+}
+
+.food-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  width: 23.8%;
+  transition: 0.5s;
+}
+
+.food-item img {
+  border-radius: 8px;
+  transition: 0.5s;
+  border: 2px solid transparent;
+}
+
+.food-item:hover img {
+  border: 2px solid #ff8700;
+}
+
+.food-item a {
+  font-size: 1.2rem;
+  padding: 0.2rem 1rem;
+  border: 2px solid #828282;
+}
+
+.food-item:hover a {
+  background: #ff8700;
+  color: white;
+  border: 2px solid #ff8700;
+}
+
+.food-container a:hover {
+  opacity: 0.7;
+  transform: scale(1.08);
+}
+
+/* Menu Clases */
+.item-shrink-1 {
+  transform: scale(0);
+}
+
+.item-shrink-2 {
+  position: absolute;
+}

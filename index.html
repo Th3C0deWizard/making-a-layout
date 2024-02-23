@@ -1,10 +1,1054 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title></title>
+    <title>RestFood</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="static/icon.png" />
     <link href="styles/index.css" rel="stylesheet" />
+    <link href="styles/header.css" rel="stylesheet" />
+    <link href="styles/hero.css" rel="stylesheet" />
+    <link href="styles/index.css" rel="stylesheet" />
+    <link href="styles/menu.css" rel="stylesheet" />
+    <link href="styles/booking-opening.css" rel="stylesheet" />
+    <link href="styles/blog.css" rel="stylesheet" />
+    <link href="styles/special-dishes.css" rel="stylesheet" />
+    <link href="styles/food-gallery.css" rel="stylesheet" />
+    <link href="styles/our-chefs.css" rel="stylesheet" />
+    <link href="styles/reviews.css" rel="stylesheet" />
+    <link href="styles/our-location.css" rel="stylesheet" />
+    <link href="styles/footer.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <script src="scripts/script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <ul>
+        <li>
+          <a href="">Facebook</a>
+        </li>
+        <li>|</li>
+        <li>
+          <a href="">Instagram</a>
+        </li>
+        <li>
+          <span>
+            <svg
+              fill="#ff8700"
+              width="1rem"
+              height="1rem"
+              viewBox="0 0 1920 1920"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="#ff8700"
+              stroke-width="0.019200000000000002"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z"
+                  fill-rule="evenodd"
+                ></path>
+              </g>
+            </svg>
+          </span>
+          <a href="">infi@example.com</a>
+        </li>
+      </ul>
+      <div class="icon-text-container">
+        <span>
+          <svg
+            width="1rem"
+            height="1rem"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <g id="Communication / Bell_Ring">
+                <path
+                  id="Vector"
+                  d="M15 17V18C15 19.6569 13.6569 21 12 21C10.3431 21 9 19.6569 9 18V17M15 17H9M15 17H18.5905C18.973 17 19.1652 17 19.3201 16.9478C19.616 16.848 19.8475 16.6156 19.9473 16.3198C19.9997 16.1643 19.9997 15.9715 19.9997 15.5859C19.9997 15.4172 19.9995 15.3329 19.9863 15.2524C19.9614 15.1004 19.9024 14.9563 19.8126 14.8312C19.7651 14.7651 19.7047 14.7048 19.5858 14.5858L19.1963 14.1963C19.0706 14.0706 19 13.9001 19 13.7224V10C19 6.134 15.866 2.99999 12 3C8.13401 3.00001 5 6.13401 5 10V13.7224C5 13.9002 4.92924 14.0706 4.80357 14.1963L4.41406 14.5858C4.29477 14.7051 4.23504 14.765 4.1875 14.8312C4.09766 14.9564 4.03815 15.1004 4.0132 15.2524C4 15.3329 4 15.4172 4 15.586C4 15.9715 4 16.1642 4.05245 16.3197C4.15225 16.6156 4.3848 16.848 4.68066 16.9478C4.83556 17 5.02701 17 5.40956 17H9M18.0186 2.01367C19.3978 3.05299 20.4843 4.43177 21.1724 6.01574M5.98197 2.01367C4.60275 3.05299 3.5162 4.43177 2.82812 6.01574"
+                  stroke="#ff8700"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </span>
+        <p>Get 30% Discount for all foods till April, 25</p>
+      </div>
+    </header>
+    <nav class="navbar">
+      <div class="logo-container">
+        <a href="#">
+          <img src="./static/logo.png" alt="RestFood Logo" />
+        </a>
+      </div>
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#menu">Menu</a>
+        </li>
+        <li>
+          <a href="order">Order</a>
+        </li>
+        <li>
+          <a href="blog">Blog</a>
+        </li>
+        <li>
+          <a href="contact">Contact</a>
+        </li>
+      </ul>
+      <div class="icons-container">
+        <a href="">
+          <svg
+            width="2.5rem"
+            height="2.5rem"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M21 21L15.0001 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
+                stroke="#ffffff"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </g>
+          </svg>
+        </a>
+        <a href="">
+          <svg
+            fill="#ffffff"
+            height="2.5rem"
+            width="2.5rem"
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 512.00 512.00"
+            xml:space="preserve"
+            stroke="#ffffff"
+            stroke-width="13.312000000000001"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke="#CCCCCC"
+              stroke-width="2.048"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <g><circle cx="58.182" cy="221.091" r="11.636"></circle></g>
+              </g>
+              <g>
+                <g><circle cx="453.818" cy="221.091" r="11.636"></circle></g>
+              </g>
+              <g>
+                <g>
+                  <path
+                    d="M151.273,314.182c-6.982,0-11.636,4.655-11.636,11.636v93.091c0,6.982,4.655,11.636,11.636,11.636 c6.982,0,11.636-4.655,11.636-11.636v-93.091C162.909,318.836,158.255,314.182,151.273,314.182z"
+                  ></path>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <path
+                    d="M221.091,314.182c-6.982,0-11.636,4.655-11.636,11.636v93.091c0,6.982,4.655,11.636,11.636,11.636 c6.982,0,11.636-4.655,11.636-11.636v-93.091C232.727,318.836,228.073,314.182,221.091,314.182z"
+                  ></path>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <path
+                    d="M290.909,314.182c-6.982,0-11.636,4.655-11.636,11.636v93.091c0,6.982,4.655,11.636,11.636,11.636 s11.636-4.655,11.636-11.636v-93.091C302.545,318.836,297.891,314.182,290.909,314.182z"
+                  ></path>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <path
+                    d="M360.727,314.182c-6.982,0-11.636,4.655-11.636,11.636v93.091c0,6.982,4.655,11.636,11.636,11.636 s11.636-4.655,11.636-11.636v-93.091C372.364,318.836,367.709,314.182,360.727,314.182z"
+                  ></path>
+                </g>
+              </g>
+              <g>
+                <g>
+                  <path
+                    d="M477.091,162.909h-38.4l-27.927-91.927c-3.491-13.964-17.455-24.436-32.582-24.436h-29.091V34.909 c0-6.982-4.655-11.636-11.636-11.636H174.545c-6.982,0-11.636,4.655-11.636,11.636v11.636h-18.618 c-15.127,0-27.927,8.145-32.582,22.109l-38.4,94.255h-38.4C15.127,162.909,0,178.036,0,197.818v46.545 c0,19.782,15.127,34.909,34.909,34.909h1.164l19.782,178.036c2.327,18.618,17.455,31.418,34.909,31.418h330.473 c17.455,0,32.582-12.8,34.909-31.418l19.782-178.036h1.164c19.782,0,34.909-15.127,34.909-34.909v-46.545 C512,178.036,496.873,162.909,477.091,162.909z M186.182,46.545h139.636v23.273H186.182V46.545z M489.891,244.364h-1.164 c0,6.982-4.655,11.636-11.636,11.636h-11.636H93.091c-6.982,0-11.636,4.655-11.636,11.636s4.655,11.636,11.636,11.636h359.564 l-19.782,175.709c-1.164,5.818-5.818,10.473-11.636,10.473H90.764c-5.818,0-10.473-4.655-11.636-10.473L58.182,266.473 C57.018,260.655,52.364,256,46.545,256H34.909c-6.982,0-11.636-4.655-11.636-11.636v-46.545c0-6.982,4.655-11.636,11.636-11.636 h46.545H384c6.982,0,11.636-4.655,11.636-11.636s-4.655-11.636-11.636-11.636H98.909L132.655,76.8 c2.327-4.655,5.818-6.982,11.636-6.982h18.618v11.636c0,6.982,4.655,11.636,11.636,11.636h162.909 c6.982,0,11.636-4.655,11.636-11.636V69.818h29.091c4.655,0,9.309,3.491,11.636,8.145l30.255,100.073 c1.164,4.655,5.818,8.145,11.636,8.145h46.545c6.982,0,11.636,4.655,11.636,11.636V244.364z"
+                  ></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <a href="">
+          <svg
+            fill="#ffffff"
+            width="2.5rem"
+            height="2.5rem"
+            viewBox="-3.2 -3.2 38.40 38.40"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#ffffff"
+            stroke-width="0.00032"
+            transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <title>user</title>
+              <path
+                d="M4 28q0 0.832 0.576 1.44t1.44 0.576h20q0.8 0 1.408-0.576t0.576-1.44q0-1.44-0.672-2.912t-1.76-2.624-2.496-2.144-2.88-1.504q1.76-1.088 2.784-2.912t1.024-3.904v-1.984q0-3.328-2.336-5.664t-5.664-2.336-5.664 2.336-2.336 5.664v1.984q0 2.112 1.024 3.904t2.784 2.912q-1.504 0.544-2.88 1.504t-2.496 2.144-1.76 2.624-0.672 2.912z"
+              ></path>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <section class="hero-container">
+        <div class="hero-left">
+          <img src="./static/leafs.png" alt="a green leaf" />
+          <h1>HAVE A <strong>DELICIOUS</strong> MEAL WITH US.</h1>
+          <div class="hero-p">
+            <p>
+              A restaurant is a place where people go to eat, frequently with
+              friends, family, or coworkers.
+            </p>
+          </div>
+          <div class="hero-buttons-container">
+            <button class="primary-button">
+              <a href="#">View Our Menu</a>
+            </button>
+            <button class="primary-button">
+              <a href="#">Book a Table</a>
+            </button>
+          </div>
+          <div class="hero-cards-container">
+            <div class="hero-card">
+              <img src="static/hero-card1.png" alt="Plato de comida 1" />
+              <div>
+                <h5>Food 1</h5>
+                <button type="button">Order Now</button>
+              </div>
+            </div>
+            <div class="hero-card">
+              <img src="static/hero-card1.png" alt="Plato de comida 2" />
+              <div>
+                <h5>King Burger</h5>
+                <button type="button">Order Now</button>
+              </div>
+            </div>
+            <div class="hero-card">
+              <img src="static/hero-card3.png" alt="Plato de comida 3" />
+              <div>
+                <h5>Food 3</h5>
+                <button type="button">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="hero-img"></section>
+      </section>
+      <section class="about">
+        <img src="static/About.png" alt="Salmon dish with vegetables" />
+        <div class="about-container">
+          <img src="static/leafs.png" alt="a green leaf" />
+          <h6 class="sofia-regular">About Us</h6>
+          <h1>Discover your favorite food within our restaurant</h1>
+          <p>
+            Discover culinary bliss at "Savoria". with its charming atmosphere,
+            delectable cuisine, and impeccable service, this hidden gem
+            transports you to a world of gastronomic delight. Indulge in a
+            symphony of flavors crafted with passion and precision, leaving your
+            taste buds longing for more.
+          </p>
+          <a href="#" class="about-btn">Read more</a>
+        </div>
+      </section>
+      <section class="special-dishes">
+        <img src="static/leafs.png" alt="a green leaf" />
+        <div class="special-dishes-top">
+          <h2>Our Special Dishes</h2>
+          <a href="#">View All<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <section class="dishes-cards-container">
+          <div class="dishes-card">
+            <img src="static/special-dish1.png" alt="Special Dish 1" />
+            <div class="hover-container">
+              <div class="food-container">
+                <div class="rating">
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                </div>
+                <div class="food-info">
+                  <h5>King Burger</h5>
+                  <p>$150</p>
+                </div>
+                <div class="offer-buttons">
+                  <a href="">Order Now</a>
+                  <a href=""
+                    ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                  <a href=""
+                    ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dishes-card">
+            <img src="static/special-dish3.png" alt="Special Dish 2" />
+            <div class="hover-container">
+              <div class="food-container">
+                <div class="rating">
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                </div>
+                <div class="food-info">
+                  <h5>King Burger</h5>
+                  <p>$150</p>
+                </div>
+                <div class="offer-buttons">
+                  <a href="">Order Now</a>
+                  <a href=""
+                    ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                  <a href=""
+                    ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dishes-card">
+            <img src="static/special-dish3.png" alt="Special Dish 3" />
+            <div class="hover-container">
+              <div class="food-container">
+                <div class="rating">
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                </div>
+                <div class="food-info">
+                  <h5>King Burger</h5>
+                  <p>$150</p>
+                </div>
+                <div class="offer-buttons">
+                  <a href="">Order Now</a>
+                  <a href=""
+                    ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                  <a href=""
+                    ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dishes-card">
+            <img src="static/special-dish4.png" alt="Special Dish 4" />
+            <div class="hover-container">
+              <div class="food-container">
+                <div class="rating">
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                  <i class="fa-solid fa-star fa-lg"></i>
+                </div>
+                <div class="food-info">
+                  <h5>King Burger</h5>
+                  <p>$150</p>
+                </div>
+                <div class="offer-buttons">
+                  <a href="">Order Now</a>
+                  <a href=""
+                    ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                  <a href=""
+                    ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="special-offer">
+        <h6 class="sofia-regular">Special Offer</h6>
+        <h1>MOTHER'S DAY</h1>
+        <p>
+          Celebrate Mother's Day with love! Enjoy 20% off on all items as a
+          token of apreciation.
+        </p>
+        <div class="offer-buttons">
+          <a href="">Order Now</a>
+          <a href=""><i class="fa-solid fa-magnifying-glass fa-xs"></i></a>
+          <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+          <a href=""
+            ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+          ></a>
+        </div>
+      </section>
+      <section class="menu" id="menu">
+        <img src="static/leafs.png" alt="leaf" />
+        <h6 class="sofia-regular">Food Menu</h6>
+        <h1>Our Popular Delicious Foods</h1>
+        <p>
+          Introducing our tantalizing food menu, filled with exquisite flavors
+          and culinary delights to satisfy every palete
+        </p>
+        <div class="filter-buttons">
+          <button type="button" data-category="0">All Menu</button>
+          <button type="button" data-category="1">Burgers</button>
+          <button type="button" data-category="2">Pizza</button>
+          <button type="button" data-category="3">Sticks</button>
+          <button type="button" data-category="4">Salads</button>
+          <button type="button" data-category="5">Desserts</button>
+          <button type="button" data-category="6">Drinks</button>
+        </div>
+        <div class="food-menu">
+          <article class="food-item" data-category="1">
+            <img src="static/FoodMenu/KingBurguer.png" alt="King Burguer" />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+              </div>
+              <div class="food-info">
+                <h5>King Burger</h5>
+                <p>$150</p>
+              </div>
+              <div class="offer-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="food-item" data-category="2">
+            <img src="static/FoodMenu/TomatoPizza.png" alt="Tomato Pizza" />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+              </div>
+              <div class="food-info">
+                <h5>Tomato Pizza</h5>
+                <p>$150</p>
+              </div>
+              <div class="offer-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="food-item" data-category="3">
+            <img src="static/FoodMenu/FriedSnacks.png" alt="Fried Snacks" />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+              </div>
+              <div class="food-info">
+                <h5>Fried Snacks</h5>
+                <p>$150</p>
+              </div>
+              <div class="offer-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="food-item" data-category="4">
+            <img
+              src="static/FoodMenu/VegetableSalads.png"
+              alt="Vegetable Salads"
+            />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+              </div>
+              <div class="food-info">
+                <h5>Vegetable Salads</h5>
+                <p>$150</p>
+              </div>
+              <div class="offer-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="food-item" data-category="3">
+            <img
+              src="static/FoodMenu/FetuccineAlfredo.png"
+              alt="Fetuccine Alfredo"
+            />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+              </div>
+              <div class="food-info">
+                <h5>Fetuccine Alfredo</h5>
+                <p>$150</p>
+              </div>
+              <div class="offer-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="food-item" data-category="3">
+            <img
+              src="static/FoodMenu/MacoroniCheese.png"
+              alt="Macoroni Cheese"
+            />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+                <i class="fa-solid fa-star fa-lg"></i>
+              </div>
+              <div class="food-info">
+                <h5>Macoroni Cheese</h5>
+                <p>$150</p>
+              </div>
+              <div class="offer-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="food-item" data-category="5">
+            <img src="static/FoodMenu/DessertsFood.png" alt="Desserts Food" />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="food-info">
+                <h5>Desserts Food</h5>
+                <p>$150</p>
+              </div>
+              <div class="offer-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+          <article class="food-item" data-category="6">
+            <img
+              src="static/FoodMenu/MargaritaDrinks.png"
+              alt="Margarita Drinks"
+            />
+            <div class="food-container">
+              <div class="rating">
+                <i class="fa-solid fa-star fa-xl"></i>
+                <i class="fa-solid fa-star fa-xl"></i>
+                <i class="fa-solid fa-star fa-xl"></i>
+                <i class="fa-solid fa-star fa-xl"></i>
+                <i class="fa-solid fa-star fa-xl"></i>
+              </div>
+              <div class="food-info">
+                <h5>Margarita Drinks</h5>
+                <p>$150</p>
+              </div>
+              <div class="offer-buttons">
+                <a href="">Order Now</a>
+                <a href=""
+                  ><i class="fa-solid fa-magnifying-glass fa-xs"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart fa-xs"></i></a>
+                <a href=""
+                  ><i class="fa-solid fa-arrow-right-arrow-left fa-xs"></i
+                ></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="food-gallery">
+        <div class="food-gallery-top">
+          <img src="static/leafs.png" alt="a green leaf" />
+          <h6 class="sofia-regular">Food Gallery</h6>
+          <h2>Our Food Gallery</h2>
+          <p>
+            Indulge your senses with a stunning display of mouthwatering
+            culinary creations in our captivating Food Gallery. Feast your eyes
+            and awaking your cravings!
+          </p>
+        </div>
+        <section class="food-gallery-container">
+          <img src="static/food-gallery1.png" alt="food 1" />
+          <img src="static/food-gallery2.png" alt="food 2" />
+          <img src="static/food-gallery3.png" alt="food 3" />
+          <img src="static/food-gallery4.png" alt="food 4" />
+          <img src="static/food-gallery5.png" alt="food 5" />
+          <img src="static/food-gallery6.png" alt="food 6" />
+        </section>
+      </section>
+      <section class="booking-opening" id="order">
+        <form action="" class="boo-op-container">
+          <div class="title-container">
+            <img src="static/leafs.png" alt="leaf" />
+            <h6 class="sofia-regular">Table booking</h6>
+            <h1>Book your table now</h1>
+          </div>
+          <div class="n-person">
+            <div class="input-container">
+              <i class="fa-solid fa-person fa-xl"></i>
+              <select required>
+                <option value="0" selected>Person</option>
+                <option value="1">1 Adult</option>
+                <option value="2">2 Adult</option>
+                <option value="3">3 Adult</option>
+                <option value="4">4 Adult</option>
+                <option value="5">5 Adult</option>
+              </select>
+            </div>
+
+            <div class="input-container">
+              <i class="fa-solid fa-child fa-xl"></i>
+              <select required>
+                <option value="0" selected>Kid's</option>
+                <option value="1">1 Child</option>
+                <option value="2">2 Child</option>
+                <option value="3">3 Child</option>
+                <option value="4">4 Child</option>
+                <option value="5">5 Child</option>
+              </select>
+            </div>
+          </div>
+          <div class="time">
+            <div class="input-container">
+              <i class="fa-solid fa-calendar fa-lg"></i>
+              <input name="date" type="date" min="2024-02-23" required />
+              <label for="date" class="info-label">Date</label>
+            </div>
+            <div class="input-container">
+              <i class="fa-solid fa-clock fa-lg"></i>
+              <input name="time" type="time" min="07:30" max="23:30" required />
+              <label for="time" class="info-label">Time</label>
+            </div>
+          </div>
+          <div class="message-container">
+            <textarea
+              class="message"
+              name="message"
+              cols="53"
+              rows="5"
+              required
+            ></textarea>
+            <label for="message" class="label-message">
+              <i class="fa-regular fa-comments"></i> Special Message
+            </label>
+          </div>
+          <button type="submit" class="button">Confirm</button>
+        </form>
+        <div class="boo-op-container">
+          <div class="title-container">
+            <img src="static/leafs.png" alt="leaf" />
+            <h6 class="sofia-regular">Opening Time</h6>
+            <h1>Opening Times</h1>
+          </div>
+          <div class="op-time-brln">
+            <div class="op-time">
+              <h4>Breakfast</h4>
+              <time>7 Days 7.30am to 11.30am</time>
+            </div>
+            <div class="op-time">
+              <h4>Lunch</h4>
+              <time>7 Days 12.30pm to 3.30pm</time>
+            </div>
+          </div>
+          <div class="op-time op-large">
+            <h4>Dinner</h4>
+            <time>Every Weekdays 8.30pm to 11.30pm</time>
+          </div>
+          <a href="#menu">Order Now</a>
+        </div>
+      </section>
+      <section class="our-chefs">
+        <div class="food-gallery-top">
+          <img src="static/leafs.png" alt="a green leaf" />
+          <h6 class="sofia-regular">Our Chefs</h6>
+          <h2>Meet Our Chefs</h2>
+          <p>
+            Get acquainted with our talented culinary maestros in the Meet Our
+            Chefs section. Learn about their expertise, passion and creative
+            flair that elevate our culinary delights.
+          </p>
+        </div>
+        <section class="chefs-container">
+          <div class="chef-card">
+            <img src="static/chef-card1.png" alt="chef 1" />
+          </div>
+          <div class="chef-card">
+            <img src="static/chef-card1.png" alt="chef 2" />
+          </div>
+          <div class="chef-card">
+            <img src="static/chef-card1.png" alt="chef 3" />
+          </div>
+        </section>
+      </section>
+      <section class="reviews">
+        <div class="carousel-review">
+          <div data-card-selected="0">
+            <svg
+              fill="#000000"
+              height="64px"
+              width="64px"
+              version="1.1"
+              id="Icons"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 32 32"
+              xml:space="preserve"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <g>
+                  <path
+                    d="M13,11c0.6,0,1-0.4,1-1s-0.4-1-1-1c-5,0-9,4-9,9c0,2.8,2.2,5,5,5s5-2.2,5-5s-2.2-5-5-5c-0.3,0-0.7,0-1,0.1 C9.3,11.8,11,11,13,11z"
+                  ></path>
+                  <path
+                    d="M23,13c-0.3,0-0.7,0-1,0.1c1.3-1.3,3-2.1,5-2.1c0.6,0,1-0.4,1-1s-0.4-1-1-1c-5,0-9,4-9,9c0,2.8,2.2,5,5,5s5-2.2,5-5 S25.8,13,23,13z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+            <p>LEFT</p>
+            <p>LEFT</p>
+            <hr />
+            <div class="reviewer-profile">
+              <img src="static/review-profile.png" alt="reviewer profile" />
+              <h6>Esther Howard</h6>
+              <p>Manager ABC Group</p>
+            </div>
+          </div>
+          <div data-card-selected="1">
+            <svg
+              fill="#000000"
+              height="64px"
+              width="64px"
+              version="1.1"
+              id="Icons"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 32 32"
+              xml:space="preserve"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <g>
+                  <path
+                    d="M13,11c0.6,0,1-0.4,1-1s-0.4-1-1-1c-5,0-9,4-9,9c0,2.8,2.2,5,5,5s5-2.2,5-5s-2.2-5-5-5c-0.3,0-0.7,0-1,0.1 C9.3,11.8,11,11,13,11z"
+                  ></path>
+                  <path
+                    d="M23,13c-0.3,0-0.7,0-1,0.1c1.3-1.3,3-2.1,5-2.1c0.6,0,1-0.4,1-1s-0.4-1-1-1c-5,0-9,4-9,9c0,2.8,2.2,5,5,5s5-2.2,5-5 S25.8,13,23,13z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+            <p>Delicious food, great service, highly recommend</p>
+            <p>Good Food Restaurant!</p>
+            <hr />
+            <div class="reviewer-profile">
+              <img src="static/review-profile.png" alt="reviewer profile" />
+              <h6>Esther Howard</h6>
+              <p>Manager ABC Group</p>
+            </div>
+          </div>
+          <div data-card-selected="2">
+            <svg
+              fill="#000000"
+              height="64px"
+              width="64px"
+              version="1.1"
+              id="Icons"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 32 32"
+              xml:space="preserve"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <g>
+                  <path
+                    d="M13,11c0.6,0,1-0.4,1-1s-0.4-1-1-1c-5,0-9,4-9,9c0,2.8,2.2,5,5,5s5-2.2,5-5s-2.2-5-5-5c-0.3,0-0.7,0-1,0.1 C9.3,11.8,11,11,13,11z"
+                  ></path>
+                  <path
+                    d="M23,13c-0.3,0-0.7,0-1,0.1c1.3-1.3,3-2.1,5-2.1c0.6,0,1-0.4,1-1s-0.4-1-1-1c-5,0-9,4-9,9c0,2.8,2.2,5,5,5s5-2.2,5-5 S25.8,13,23,13z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+            <p>RIGHT</p>
+            <p>RIGHT</p>
+            <hr />
+            <div class="reviewer-profile">
+              <img src="static/review-profile.png" alt="reviewer profile" />
+              <h6>Esther Howard</h6>
+              <p>Manager ABC Group</p>
+            </div>
+          </div>
+        </div>
+        <div class="points">
+          <button class="point" id="point1"></button>
+          <button class="point" id="point2"></button>
+          <button class="point" id="point3"></button>
+        </div>
+      </section>
+      <section class="blog" id="blog">
+        <img src="static/leafs.png" alt="leaf" />
+        <h6 class="sofia-regular">Our Blog</h6>
+        <h1>Know More About The Article</h1>
+        <div class="wrapper">
+          <button class="btn-left" id="btn-left">
+            <i class="fa-solid fa-angle-left fa-3x"></i>
+          </button>
+
+          <ul class="carousel">
+            <li class="card">
+              <img
+                src="static/OurBlog/Reservation.png"
+                alt="A family having dinner and enjoying"
+                draggable="false"
+              />
+              <time>15 December, 2022</time>
+              <h4>Explore Taste & The Best Quality Make A Reservation</h4>
+              <p>
+                A great commerce experience cannot be distilled to a single
+                number. It's not a Lighthouse score.
+              </p>
+              <button type="submit" class="button">Read more</button>
+            </li>
+            <li class="card">
+              <img
+                src="static/OurBlog/Journey.png"
+                alt="Chef smiling"
+                draggable="false"
+              />
+              <time>15 December, 2022</time>
+              <h4>Enjoy an exceptional journey of taste of joy</h4>
+              <p>
+                Aenean eleifend ante maecenas pulvinar montes lorem et pede dis
+                dolor pretium donec dictum.
+              </p>
+              <button type="submit" class="button">Read more</button>
+            </li>
+            <li class="card">
+              <img
+                src="static/OurBlog/Chef.jpg"
+                alt="Professional kitchen"
+                draggable="false"
+              />
+              <time>15 December, 2022</time>
+              <h4>Our professional kitchen</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Impedit officia voluptate saepe, corporis ipsum mollitia.
+              </p>
+              <button type="submit" class="button">Read more</button>
+            </li>
+          </ul>
+          <button class="btn-right" id="btn-right">
+            <i class="fa-solid fa-angle-right fa-3x"></i>
+          </button>
+        </div>
+      </section>
+      <section class="our-location" id="contact">
+        <section>
+          <img src="static/leafs.png" alt="a grren leaf" />
+          <h6 class="sofia-regular">Our Location</h6>
+          <h2>VISIT OUR RESTAURANT</h2>
+          <p>We think of our clients as guests we've invited to a party,</p>
+          <p>and we're the hosts.</p>
+          <div class="information">
+            <p>Address: 2715 Ash Dr. San Jose, South Dakota 83475</p>
+            <p>Email: debbie.baker@example.com</p>
+            <p>Phone: (219) 555-0114</p>
+          </div>
+          <div class="buttons-container">
+            <button class="button">Get directions</button>
+            <ul>
+              <li>
+                <a href="https://www.youtube.com" target="_blank">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com" target="_blank">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="food-cards-container">
+          <div class="food-card">
+            <img src="static/our-location1.png" alt="food" />
+          </div>
+          <div class="food-card">
+            <img src="static/our-location2.png" alt="food" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <img src="static/footer-logo.png" alt="RestFood Logo" />
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#menu">Menu</a>
+        </li>
+        <li>
+          <a href="order">Order</a>
+        </li>
+        <li>
+          <a href="blog">Blog</a>
+        </li>
+        <li>
+          <a href="contact">Contact</a>
+        </li>
+      </ul>
+      <p>Copyright 2023 by RestFood All rights reserved</p>
+    </footer>
+  </body>
 </html>
