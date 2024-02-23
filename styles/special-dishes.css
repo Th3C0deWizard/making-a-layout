@@ -30,6 +30,7 @@
 }
 
 .dishes-card {
+  position: relative;
   border-radius: 0.7rem;
 }
 
@@ -54,4 +55,50 @@
   height: 100%;
   object-fit: cover;
   border-radius: 0.7rem;
+}
+
+.dishes-card > div {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+.dishes-card:hover::before {
+  content: "";
+  position: absolute;
+  border-radius: 0.7rem;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.dishes-card h7 {
+  font-size: 1.5rem;
+}
+
+.dishes-card button {
+  border: 0.5px gray solid;
+  border-radius: 0.2rem;
+  background-color: white;
+  padding: 0.2rem 0.4rem;
+  cursor: pointer;
+}
+
+.dishes-card span {
+  border-radius: 0.2rem;
+  border: 0.5px gray solid;
+  background-color: var(--main-orange);
+}
+
+.dishes-card:hover > div {
+  display: flex;
 }
